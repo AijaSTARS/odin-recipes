@@ -1,15 +1,27 @@
-* {
+* 
+{
     box-sizing: border-box;
 }
-body {
-    text-align: center;
-    display: flex table-row;
-    background: rgb(2,0,36);
-    background: linear-gradient(313deg, rgba(2,0,36,1) 0%, rgba(135,75,212,1) 38%, rgba(0,212,255,1) 100%);
 
+body
+
+{
+    display: grid;
+    background-image: url(img/chef.jpg);
+    
+    display: flex table-row;
+    background: rgb(8,7,23);
+    background: radial-gradient(circle, rgba(8,7,23,1) 0%, rgba(1,1,1,1) 100%);
+    
 }
-h1 {
-    background-color:#ff6eff;
+
+.homeheader
+
+{
+    border: none;
+    background: none;
+    color: white;
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
     height: 150px;
     width: 100%;
@@ -19,31 +31,53 @@ h1 {
 
 }   
 
-.links {  
+.links
+
+{  
+    justify-content: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border: color-mix(in hsl shorter hue, 
-    percentage, red 25%);
     border-radius: 50%;
     display: flexbox;
-    margin-left: 40px;
+    margin: 40px;
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 84%, rgba(0,212,255,1) 100%);
     height: 90px;
     width: 90px;
 }   
 
-.chefboy {
-    border-radius: 20px;
-    border-style: solid ;
-    width: 580px;
-    height: 480px;
-    box-align: center;
+.chefboy 
+
+{
+    display: block;
+    block-size: 100%;
+    border-top-right-radius: 290px;
+    border-bottom-right-radius: 290px;
+    align-items: start;
+    width: 50%;
+    height: 100%;
+    margin-left: -10px;
 
 }
 
-.lasagna{
-    color: rgb(24 42 66 );
+.linksinbutton
+{
+    color: rgb(256 256 256);
     font-weight: bold;
     
     
+}
+
+.recipe-links 
+
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+.header
+{
+
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
