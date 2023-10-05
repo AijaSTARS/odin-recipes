@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    display: flex table-row;
+    background: rgb(2,0,36);
+    background: linear-gradient(313deg, rgba(2,0,36,1) 0%, rgba(135,75,212,1) 38%, rgba(0,212,255,1) 100%);
+
+}
+h1 {
+    background-color:#ff6eff;
+    font-family: 'Courier New', Courier, monospace;
+    height: 150px;
+    width: 100%;
+    font-size: 42px;
+    
+    padding: 25px;
+
+}   
+
+.links {  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: color-mix(in hsl shorter hue, 
+    percentage, red 25%);
+    border-radius: 50%;
+    display: flexbox;
+    margin-left: 40px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 84%, rgba(0,212,255,1) 100%);
+    height: 90px;
+    width: 90px;
+}   
+
+.chefboy {
+    border-radius: 20px;
+    border-style: solid ;
+    width: 580px;
+    height: 480px;
+    box-align: center;
+
+}
+
+.lasagna{
+    color: rgb(24 42 66 );
+    font-weight: bold;
+    
+    
+}
