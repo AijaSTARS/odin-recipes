@@ -6,72 +6,66 @@
 body
 
 {
-    display: grid;
-    background-image: url(img/chef.jpg);
-    
-    background: rgb(8,7,23);
-    background: radial-gradient(circle, rgba(8,7,23,1) 0%, rgba(1,1,1,1) 100%);
-    
-}
+    background-color: #ffffff ;
+} 
 
-.homeheader
+.card
 
 {
-    border: none;
-    background: none;
-    color: white;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 24px;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    height: 150px;
-    width: 100%;
-    font-size: 42px;
-    
-    padding: 25px;
+    background-color: #b9e3ff;
 
-}   
-
-.links
-
-{  
-    text-align: center;
-    text-decoration: none;
-    color: rgb(256 256 256);
-    font-weight: bold;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 50%;
-    margin: 40px;
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 84%, rgba(0,212,255,1) 100%);
-    height: 100px;
-    width: 100px;
-}   
-
+}
 .chefboy 
 
 {
-    display: block;
-    block-size: 100%;
-    border-top-right-radius: 290px;
-    border-bottom-right-radius: 290px;
-    align-items: start;
-    width: 50%;
-    height: 100%;
-    margin-left: -10px;
-
+    width: 550px;
+    border-radius: 15px;
 }
 
 
 .recipe-links 
 
 {
-    display: flex;
-    margin: 0 auto;
+    margin: 25px;
+    display: block;
 
+}
+
+.links 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    background-color: #ffffff;
+    margin: 12px;
+    padding: 14px;
+    border-radius: 8px;
+
+}
+
+.links:hover
+{
+    transition: all .2s ease-in-out;
+    background-color: aquamarine;
+    transform:scale(2);
 }
 
 .header
 {
+    border-radius: 8px;
+    background-color: #baa3fb;
+    display: inline-block;
+    padding: 12px 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-    color: antiquewhite;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+.warning
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
 }
