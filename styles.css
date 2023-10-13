@@ -1,4 +1,4 @@
-* 
+*
 {
     box-sizing:border-box;
 }
@@ -8,7 +8,6 @@ body
 {
     display: grid;
     background-image: url(img/chef.jpg);
-    
     
     background: rgb(8,7,23);
     background: radial-gradient(circle, rgba(8,7,23,1) 0%, rgba(1,1,1,1) 100%);
@@ -40,7 +39,6 @@ body
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 50%;
-    display: flexbox;
     margin: 40px;
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 84%, rgba(0,212,255,1) 100%);
@@ -67,7 +65,7 @@ body
 
 {
     display: flex;
-    justify-content: center;
+    margin: 0 auto;
 
 }
 
