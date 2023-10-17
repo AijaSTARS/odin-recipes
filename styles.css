@@ -1,42 +1,32 @@
 *
 {
     box-sizing:border-box;
+    
 }
 
 body
 
 {
 
-    background-image: url(img/blurred-modern-kitchen.jpg);
-    background-position: 100%;
-    background-color: #ffffff ;
-    overflow: hidden;
+    margin: -5px;
+    overflow-x: hidden;
+    background-color: #151515 ;
+    
 } 
 
-.card
-
-{
-    border-radius: 25px;
-    margin: 20px;
-    padding: 24px;
-    text-align: center;
-    background-color: #b9e3ff;
-
-}
 .banner
 
 {
     margin: -10px -10px;
     width: 105%;
-    box-align: center;
-    display: inline-block;
-    height: relative;
+    
     background-position: -1px;
+    transition: 250ms;
 }
 
 .banner:hover
 {
-    transition: all .5s ease-in-out;
+    transition: all 250ms ease-in;
     transform: scale(1.2);
 }
 
@@ -50,37 +40,48 @@ body
 
 }
 
-.links 
+.links
 {
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
+    font-size: large;
     color: black;
+    border: 2px transparent #ffffff;
     text-decoration: none;
-    background-color: #ffffff;
-    margin: 12px;
-    height: 95px;
+    background-color: #151515;
+    margin: 5px;
+    height: 400px;
     border-radius: 8px;
-
+    flex: 1;
+    transition: 250ms;
+    
 }
 
 .links:hover
 {
     transition: all .2s ease-in-out;
-    background-color: aquamarine;
-    transform:scale(2);
+    background:50%;
+    
+    transform: rotate3d(1, 10, -0.1, -20deg )
 }
 
-.header
+    
+.links:first-child
 {
-    border-radius: 8px;
-    background-color: #baa3fb;
-    display: inline-block;
-    padding: 12px 100px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(img/lasagna.jpg);
+    background-size: cover;
 }
 
-.warning
+.links:nth-child(2)
 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
+    background-image: url(img/Chef-Salad.jpg);
+    background-size: cover;
 }
+
+.links:nth-child(3)
+{
+    background-size: cover;
+    background-image: url(img/baconandeggs.jpg);
+}
+
