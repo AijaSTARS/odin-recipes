@@ -6,7 +6,11 @@
 body
 
 {
+
+    background-image: url(img/blurred-modern-kitchen.jpg);
+    background-position: 100%;
     background-color: #ffffff ;
+    overflow: hidden;
 } 
 
 .card
@@ -19,11 +23,21 @@ body
     background-color: #b9e3ff;
 
 }
-.chefboy 
+.banner
 
 {
-    width: 550px;
-    border-radius: 15px;
+    margin: -10px -10px;
+    width: 105%;
+    box-align: center;
+    display: inline-block;
+    height: relative;
+    background-position: -1px;
+}
+
+.banner:hover
+{
+    transition: all .5s ease-in-out;
+    transform: scale(1.2);
 }
 
 
@@ -31,7 +45,8 @@ body
 
 {
     margin: 25px;
-    display: block;
+    display: flex;
+    
 
 }
 
@@ -43,7 +58,7 @@ body
     text-decoration: none;
     background-color: #ffffff;
     margin: 12px;
-    padding: 14px;
+    height: 95px;
     border-radius: 8px;
 
 }
